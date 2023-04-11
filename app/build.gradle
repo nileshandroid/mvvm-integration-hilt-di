@@ -48,6 +48,12 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$hilt_dagger_version"
     kapt "com.google.dagger:hilt-android-compiler:$hilt_dagger_version"
 
+
+    // Retrofit
+    def retrofit_version='2.1.0'
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
     // Unit Testing
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
